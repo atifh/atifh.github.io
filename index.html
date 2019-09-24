@@ -1,56 +1,291 @@
-<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Atif Haider</title>
-<meta name="author" content="Atif Haider"/>
-<meta name="keywords" content="Atif Haider"/>
-<meta name="description" content="Atif Haider's Homepage"/>
-<style type="text/css" media="screen">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" data-ember-extension="1">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>Atif Haider</title>
+    <meta name="author" content="Atif Haider" />
+    <meta name="keywords" content="Atif Haider" />
+    <meta name="description" content="I am Atif Haider. I am a programmer, a software architect and an entrepreneur." />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css" />
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css" />
+
+    <style type="text/css" media="screen">
       body {
         margin: 30px;
         font-family: serif;
         text-align: center;
         color: black;
         background: white;
-        }
-        .small {
-        font-size: 1em;
+      }
+      p {
+        margin-bottom: 0px;
+      }
+      .small {
+        font-size: 20px;
         color: #555;
-        }
-        .large {
-        font-size: 2em;
-        }
-        a {
+      }
+      .large {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 1.3;
+      }
+      a {
         color: black;
-        }
-        .footer {
+      }
+      .footer {
         font-size: 1em;
         font-style: italic;
         color: #555;
         line-height: 1.5em;
+      }
+      .introduction {
+        margin-bottom: 50px;
+      }
+      .align-center {
+        align-items: center;
+      }
+      .first {
+        margin-top: 50px;
+      }
+      .publishing-details {
+        display: flex;
+        justify-content: space-between;
+      }
+      .article-details {
+        flex-wrap: wrap;
+      }
+      .article-details a:hover {
+        text-decoration: underline;
+      }
+      .article-details .column-33 {
+        margin-bottom: 50px;
+        text-align: left;
+        padding-right: 3rem;
+      }
+      .column-33 span {
+        color: #555;
+        font-size: 14px;
+        font-style: italic;
+      }
+      .introduction a {
+        text-decoration: underline;
+      }
+      @media (max-width: 768px) {
+        .article-details .column.column-33 {
+          max-width: 100%;
+          flex: 1;
         }
-      img.self_image {
-      border: 5px solid black;
+        .introduction .column.column-40 {
+          max-width: 100%;
+          flex: 1;
+          margin-bottom: 30px;
+        }
+        .introduction .column.column-60 {
+          max-width: 100%;
+          flex: 1;
+        }
       }
     </style>
-</head>
-<body>
-<img src="http://farm4.static.flickr.com/3137/3041463348_9e02795b52_d.jpg" class="self_image" alt="Atif Haider" title="Atif Haider"/>
-<p class="small">YOU HAVE REACHED</p>
-<p class="large">atifhaider.com</p>
-<p class="small">WHICH BELONGS TO</p>
-<p class="large">Atif Haider</p>
-<p class="small">WHO CAN BE REACHED AT</p>
-<p class="large">
-<a href="mailto:mail@atifhaider.com">mail@atifhaider.com</a>
-</p>
-<p class="footer">
-He is an <a href="http://en.wikipedia.org/wiki/Software_architect" target="_blank">Application Architect</a> at <a href="http://studiomarch.com/" target="_blank">Studio March Private Limited.</a>
-</p>
-<p class="footer">
-He uses & writes <a href="http://github.com/atifh" target="_blank">Free and Open Source Software</a>
-<p class="footer">
-He <strike><a href="" title="Coming soon..">Blogs</a></strike>,
-<a href="http://twitter.com/aatifh/" target="_blank">Microblogs</a> and lives in <a href="http://en.wikipedia.org/wiki/Pune" target="_blank">Pune</a>, India.
-</p>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="introduction">
+        <div class="row align-center">
+          <div class="column column-40">
+            <img
+              src="https://farm4.static.flickr.com/3137/3041463348_9e02795b52_d.jpg"
+              class="self_image"
+              alt="Atif Haider"
+              />
+            <span>at oCricket's office in 2008</span>
+          </div>
+          <div class="column column-60">
+            <p>I am Atif Haider. I am a programmer, a software architect and an entrepreneur.<p>
+            <p>I use & write <a href="https://github.com/atifh">Free and Open Source Software</a>. I <a href="https://medium.com/@aatifh">Blog</a>, <a href="https://twitter.com/aatifh">Microblog</a> and live in Bangalore, India.</p>
+            <p>You can also find me on <a href="https://www.linkedin.com/in/atifh">LinkedIn</a> and can reach me at <a href="mailto:mail@atifhaider.com">mail@atifhaider.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>In the Past</h2>
+        <div class="row article-details">
+	  <div class="column column-33">
+            <a href="https://www.livemint.com/companies/news/go-jek-acquires-aircto-to-expand-its-engineering-base-in-india-1560315625384.html" target="_blank">
+              GOJEK acquires AirCTO to expand its engineering base in India
+            </a>
+            <div class="publishing-details">
+              <span>on Livemint</span>
+              <span>June 12, 2019</span>
+            </div>
+	  </div>
+
+          <div class="column column-33">
+            <a href="https://aircto.com/blog/tag/aircto-insider/" target="_blank">
+              Insider Stories of AirCTO Operations
+            </a>
+            <div class="publishing-details">
+              <span>on AirCTO Blog</span>
+              <span>April 5, 2019</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://blog.usejournal.com/how-does-product-development-happen-at-aircto-81fc511af074" target="_blank">
+              6 Step Product Development process we follow at AirCTO
+            </a>
+            <div class="publishing-details">
+              <span>On Medium</span>
+              <span>March 5, 2019</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://medium.com/@aircto/decoding-the-myths-and-realities-of-hiring-tech-talent-23eab2b58cf9" target="_blank">
+              Decoding the Myths and Realities of Hiring Tech Talent
+            </a>
+            <div class="publishing-details">
+              <span>On Medium</span>
+              <span>Sep 17, 2018</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://aircto.com/blog/year-in-review-2017-scaling-aircto-to-simplify-tech-hiring/" target="_blank">
+              Year in review, 2017: Scaling AirCTO to Simplify Tech Hiring
+            </a>
+            <div class="publishing-details">
+              <span>On AirCTO Blog</span>
+              <span>Jan 30, 2018</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://www.entrepreneur.com/article/300405" target="_blank">
+              Artificial Intelligence Can Help Companies Hire the Best Candidate. Here's How
+            </a>
+            <div class="publishing-details">
+              <span>On AirCTO Blog</span>
+              <span>Sep 15, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="http://techstory.in/aircto/" target="_blank">
+              With over 1600 candidates screened and saving 4500 hours for companies, AirCTO is looking to disrupt the recruitment process with their human and AI powered hiring platform
+            </a>
+            <div class="publishing-details">
+              <span>On Techstory</span>
+              <span>Sep 14, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://www.vccircle.com/exclusive-former-nokia-exec-backs-ai-powered-recruitment-platform-aircto/" target="_blank">
+              Former Nokia exec backs AI-powered recruitment platform AirCTO
+            </a>
+            <div class="publishing-details">
+              <span>On Vccircle</span>
+              <span>July 19, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://yourstory.com/2016/04/job-description" target="_blank">
+              How to create the ideal job description to hire the right candidate
+            </a>
+            <div class="publishing-details">
+              <span>On Yourstory</span>
+              <span>April 11 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://www.producthunt.com/posts/aircto" target="_blank">
+              AirCTO becomes #2 Product of the day on ProductHunt
+            </a>
+            <div class="publishing-details">
+              <span>On ProductHunt</span>
+              <span>March 03, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://aircto.com/blog/aircto-in-2016/" target="_blank">
+              AirCTO in 2016: From Idea to Paying Customers
+            </a>
+            <div class="publishing-details">
+              <span>On AirCTO Blog</span>
+              <span>Jan 27, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://techseen.com/2017/01/03/technical-recruitment-2016-india/" target="_blank">
+              Technical recruitment in 2016 (India)
+            </a>
+            <div class="publishing-details">
+              <span>On Techseen</span>
+              <span>Jan 3, 2017</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://yourstory.com/2016/10/techsparks-2016-exhibitors-lens" target="_blank">
+              TechSparks 2016: from an exhibitor's lens
+            </a>
+            <div class="publishing-details">
+              <span>On Yourstory</span>
+              <span>Oct 28, 2016</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://www.outlookbusiness.com/enterprise/big-idea/the-right-fit-2983" target="_blank">
+              AirCTO promises to make hiring speedy and simple
+            </a>
+            <div class="publishing-details">
+              <span>On Outlook Business</span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://yourstory.com/2016/07/aircto/" target="_blank">
+              How Bengaluru based Aircto helps companies get the right technical talent in quick turnaround time
+            </a>
+            <div class="publishing-details">
+              <span>On Yourstory</span>
+              <span>July 20, 2016</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://yourstory.com/2016/01/technical-interview" target="_blank">
+              Recruiters, what really matters in a technical interview?
+            </a>
+            <div class="publishing-details">
+              <span>On YourStory</span>
+              <span>Jan 26, 2016</span>
+            </div>
+          </div>
+
+          <div class="column column-33">
+            <a href="https://yourstory.com/2015/10/techie-tuesdays-atif-haider" target="_blank">
+              [Techie Tuesdays] Story of the Lisper from Gaya
+            </a>
+            <div class="publishing-details">
+              <span>On Yourstory</span>
+              <span>20 Oct 2015</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      </p>
+    </div>
+  </body>
 </html>
